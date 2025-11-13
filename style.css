@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&display=swap');
 
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -220,8 +221,6 @@ body{
     justify-content: center;
     position: relative;
     overflow: hidden;
-
-    
 }
  .ph{
     width:130vh;
@@ -295,4 +294,49 @@ body{
 .icon2{
     margin-left: 10px;
     color: rgb(255, 0, 0);
+}
+
+.plans{
+   
+    width: 100%;
+    height: 70vh;
+}
+
+.plans h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.plan-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:400px;
+}
+
+.plan1{
+    background-image: radial-gradient(circle, #00256b, #000000);
+    border: 1px solid white;
+    box-shadow: 0 0 30px 5px rgb(53, 39, 253);
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.acc {
+    padding: 20px;
+    font-weight: 300;
+    width: 100%;
+
+}
+
+.acc .acc2,.acc3,.acc4,.acc5{
+    opacity: 0.5;
 }
