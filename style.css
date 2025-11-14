@@ -12,6 +12,7 @@ body{
     margin: 0;
   background: radial-gradient(circle at top, #0a0f2c, #000);
   min-height: 100vh;
+ 
 }
 
 .nav1 {
@@ -297,13 +298,13 @@ body{
 }
 
 .plans{
-    
+    position: relative;
     width: 100%;
     height: 70vh;
     display: flex;
-    
     justify-content: center;
     align-items: center;
+   
 
 }
 
@@ -312,6 +313,7 @@ body{
     color: white;
     display: flex;
     justify-content: center;
+    text-shadow: 0 0 10px white;
     
 }
 
@@ -321,6 +323,7 @@ body{
     justify-content: center;
     align-items: center;
     gap:100px;
+   
 }
 
 .plan1{
@@ -335,6 +338,7 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
+    
 }
 
 .plan1 h1 {
@@ -558,4 +562,67 @@ body{
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+
+.glowplans{
+    
+    position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 40, 151, 0.6), transparent 70%);
+  left: 10px;
+  filter: blur(100px);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.services-head{
+    height: 60vh;
+    width: 100%;
+    background-color: red;
+}
+
+.ser1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.service1{
+    width: 39vh;
+    height: 24vh;
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.imageser1{
+    height: 70px;
+    width: 70px;
+    background-color: purple;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-image: url(./image/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwNS1wLnBuZw.webp);
+    background-size: contain;  
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-color: white;
+}
+
+.heservi1{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
 }
