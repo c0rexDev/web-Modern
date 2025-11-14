@@ -338,7 +338,19 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
-    
+    position: relative;
+    overflow: hidden;
+}
+.plan1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 35px;
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);
+    transform: skewX(-20deg);
+    animation: shine 2s infinite ease-in-out;
 }
 
 .plan1 h1 {
@@ -418,6 +430,20 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.plan2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 35px;
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);
+    transform: skewX(-20deg);
+    animation: shine 2s infinite ease-in-out;
 }
 
 .acc {
@@ -499,7 +525,26 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
+    overflow: hidden;
+    position: relative;
 }
+
+.plan3::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 35px;
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);
+    transform: skewX(-20deg);
+    animation: shine 2s infinite ease-in-out;
+}
+
+@keyframes shine {
+    0% { left: -100%; }
+    100% { left: 160%; }
+  }
 
 .acc {
     padding: 20px;
@@ -602,6 +647,7 @@ body{
 }
 
 .service1{
+    
     width: 50vh;
     height: 24vh;
     border: 1px solid white;
@@ -609,8 +655,11 @@ body{
     color: white;
     background-image: radial-gradient(circle, rgb(66, 0, 66),rgb(17, 17, 17));
     box-shadow:  0 0 20px 5px rgb(162, 0, 255);
+    
 
 }
+
+
 
 .imageser1{
     height: 70px;
@@ -655,6 +704,7 @@ body{
 }
 
 .service1 button{
+   
     height: 40px;
     width: 130px;
     margin-left: 160px;
@@ -664,6 +714,7 @@ body{
     color: white;
     box-shadow: 0 0 30px 5px rgb(220, 44, 255);
     margin-top: 15px;
+    
 }
 
 
